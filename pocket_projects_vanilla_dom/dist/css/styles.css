@@ -51,3 +51,24 @@ h1 {
   opacity: 1;
   transform: translateX(0%) scale(1);
 }
+
+.dog-link {
+  display: none;
+  color: gray;
+  background-color: aliceblue;
+}
+
+.drop-down-dog-nav {
+  color: gray;
+  background-color: white;
+}
+
+.drop-down-dog-nav:hover {
+  display: flex;
+  background-color: white;
+  color: gray;
+}
+
+.dog-link.open {
+  display: block;
+}
